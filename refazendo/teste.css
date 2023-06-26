@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+#container{
+    background-color:gray;
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    
+
+}
+
+header{
+    background-color: aqua;
+    
+}
+#c1{
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#conteudo{
+    position: relative;
+    width: 800px;
+    height: 430px;
+    background-image: url(../imagens/people.jpg);
+    background-size: cover;
+}
+
+#form{
+    padding: 18px;
+    position: absolute;
+    max-width: 240px;
+    min-height: 350px;
+    background-color: aliceblue;
+    color: black;
+    transform: translateX(178%);
+    margin: 18px;
+}
+
+p{
+    padding: 5px;
+
+}
+
+#p1{
+    font-size: 19px;
+}
+
+#p2{
+    margin-bottom: 10px;
+}
+
+
+.a1{
+    padding: 5px;
+    margin: 5px;
+    min-width: 200px;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    transform: translate(110%, 225%);
+}
+
+#fim{
+    max-width: 400px;
+    transform: translate(80%, 150%);
+}
